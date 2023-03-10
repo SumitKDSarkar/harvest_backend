@@ -2,7 +2,7 @@ const mongoose=require("mongoose")
 
 const DB = process.env.DATABASE
 const connect=()=>{
-    return mongoose.connect("mongodb+srv://harvest:a@cluster0.h2sgx3q.mongodb.net/?retryWrites=true&w=majority")
+    return mongoose.connect("mongodb+srv://Sumit:Sumit@cluster0.0mfsdaa.mongodb.net/harvest?retryWrites=true&w=majority")
 }
 
 
